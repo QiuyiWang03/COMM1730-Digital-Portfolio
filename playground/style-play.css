@@ -1,0 +1,25 @@
+#container {
+  background-color: pink;
+  margin: 0px auto;
+  padding: 0px;
+  width: 400px;
+  height: 400px;
+}
+.square, .circle {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    float: left;
+}
+.circle {
+    border-radius: 50%;
+}
+#blockRed {
+    background-color: red;
+}
+#blockYellow {
+    background-color: yellow;
+}
+#blockWood {
+    background-image: url.('https://images.pexels.com/photos/172276/pexels-photo-172276.jpeg');
+}

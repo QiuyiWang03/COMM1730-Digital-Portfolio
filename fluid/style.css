@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/* set up the fonts */
+body{
+	font-family:Verdana, sans-serif;
+}
+h1,h2,h3,h4{
+	font-family:Georgia, serif;
+}
+
+/*style a few links */
+.box a{
+	color:#212020;
+	text-decoration:none;
+}
+.box a:hover{
+	text-decoration:underline;
+}
+
+/* position the content */
+.wrapper{
+	margin:0 auto;
+	padding:0 10px;
+    width:960px;
+}
+
+/* style the header and footer */
+#footer, #header{
+	float:left;
+	clear:both;
+	padding: 10px;
+	text-align:center;
+	width:100%;
+}
+
+#content{
+    float:left;
+    width:100%;
+    background-color:#F0ECEC;
+}
+
+/* create the floating boxes */
+.box {
+   float: left;
+   margin: 5px;
+   padding: 10px;
+   width: 285px;
+   height: 480px;
+    background-color:white;
+   border: 1px solid grey;
+    
+} 
+/* style the box content */ 
+.box img{
+	width: 280px; /* alternatively set the image width in your HTML */
+}
+.box h3, .box p{
+	text-align:center;
+}
+
+
+@media screen and (max-width: 960px){
+	.wrapper{
+		width:640px;
+	}
+}
+@media screen and (max-width: 640px){
+	.wrapper{
+		width:320px;
+	}
+	h1, h2, h3, h4, p{
+		word-wrap:break-word;
+	}
+	#header{
+		padding:0;

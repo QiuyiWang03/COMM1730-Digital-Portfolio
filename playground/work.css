@@ -1,0 +1,47 @@
+.square,.circle{
+    display:grid;
+    float:left;
+}
+.circle{
+    width:60px;
+    height:60px;
+    margin:5px 8px 30px 5px;
+    border-radius:50%;
+}
+.square{
+    width:90px;
+    height:45px;
+    margin:45px 20px 50px 1px;  
+}
+
+.square-one{
+    width:90px;
+    height:45px;
+    margin:200px 1px 65px 0px; 
+    
+}
+.square-two{
+    width:60px;
+    height:15px;
+    margin:20px 20px 25px 10px;   
+}
+#blockWhite{
+    background-color:#E3E2D6;     
+}
+ 
+#blockYellow{
+    background-color:rgb(45,96,96);
+    
+}
+
+#blockBlue{
+    background-color:#4A8594;
+}
+
+#container{
+    background-color:#1D120E;
+    width:600px;
+    height:450px;
+    display:inline-block;
+    border:6px solid black;
+}
